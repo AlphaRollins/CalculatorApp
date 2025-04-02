@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
   font-size: 45px;
@@ -7,29 +6,65 @@
   border: 0;
 }
 
-.calculadora {
-  display: flex;
-  justify-content: center;
+body {
   height: 100dvh;
-  align-items: center;
+  display: flex;
+}
+
+.calculadora {
+  max-width: 454px;
+  margin: auto;
+  overflow: hidden;
+  border: 10px solid;
+  border-radius: 10px;
 }
 
 .gridNumbers {
   display: flex;
   flex-direction: column;
   background-color: rgb(0, 0, 0);
-  border: 10px solid;
-  gap: 10px;
+  align-items: center;
 }
 
 button {
   width: 100px;
   height: 100px;
   color: white;
-  background-color: rgb(73, 73, 73);
+  background-color: hsl(0, 0%, 30%);
   border-style: solid;
+  cursor: pointer;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+button:active {
+  background-color: hsl(0, 0%, 60%);
+}
+
+.opBtns {
+  background-color: hsl(39, 100%, 45%);
+}
+.opBtns:hover {
+  background-color: hsl(39, 100%, 60%);
+}
+.opBtns:active {
+  background-color: hsl(39, 100%, 80%);
 }
 
 #resultado {
+  width: 95%;
+  border-bottom: 0;
+}
+
+.campoResultado {
   width: 100%;
+  text-align: right;
+  font-size: 60px;
+  background-color: rgb(73, 73, 73);
+  border-bottom: 5px solid black;
+  color: white;
 }

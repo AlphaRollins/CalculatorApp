@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  border: 0;
+}
+
+.calculadora {
+  display: flex;
+  justify-content: center;
+  height: 100dvh;
+  align-items: center;
+}
+
+.gridNumbers {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  border: 10px solid;
+  gap: 10px;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: rgb(73, 73, 73);
+  border-style: solid;
+}
+
+#resultado {
+  width: 100%;
+}

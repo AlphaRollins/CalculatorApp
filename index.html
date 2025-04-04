@@ -18,30 +18,30 @@
       <input class="campoResultado" readonly placeholder="0" id="display">
       <div class="gridNumbers">
         <div>
-          <button id="num7" onclick="appendToDisplay('7')">7</button>
-          <button id="num8" onclick="appendToDisplay('8')">8</button>
-          <button id="num9" onclick="appendToDisplay('9')">9</button>
+          <button class="getNumbers" id="num7" onclick="appendToDisplay('7')">7</button>
+          <button class="getNumbers" id="num8" onclick="appendToDisplay('8')">8</button>
+          <button class="getNumbers" id="num9" onclick="appendToDisplay('9')">9</button>
           <button class="opBtns" id="division" onclick="appendToDisplay('/')">/</button>
         </div>
         <div>
-          <button id="num4" onclick="appendToDisplay('4')">4</button>
-          <button id="num5" onclick="appendToDisplay('5')">5</button>
-          <button id="num6" onclick="appendToDisplay('6')">6</button>
+          <button class="getNumbers" id="num4" onclick="appendToDisplay('4')">4</button>
+          <button class="getNumbers" id="num5" onclick="appendToDisplay('5')">5</button>
+          <button class="getNumbers" id="num6" onclick="appendToDisplay('6')">6</button>
           <button class="opBtns" id="multiplicacion" onclick="appendToDisplay('*')">*</button>
         </div>
         <div>
-          <button id="num1" onclick="appendToDisplay('1')">1</button>
-          <button id="num2" onclick="appendToDisplay('2')">2</button>
-          <button id="num3" onclick="appendToDisplay('3')">3</button>
+          <button class="getNumbers" id="num1" onclick="appendToDisplay('1')">1</button>
+          <button class="getNumbers" id="num2" onclick="appendToDisplay('2')">2</button>
+          <button class="getNumbers" id="num3" onclick="appendToDisplay('3')">3</button>
           <button class="opBtns" id="resta" onclick="appendToDisplay('-')">-</button>
         </div>
         <div>
           <button id="numC" onclick="clearDisplay()">C</button>
-          <button id="num10" onclick="appendToDisplay('0')">0</button>
+          <button class="getNumbers" id="num10" onclick="appendToDisplay('0')">0</button>
           <button id="numComma" onclick="appendToDisplay('.')">.</button>
           <button class="opBtns" id="suma" onclick="appendToDisplay('+')">+</button>
         </div>
-        <button class="opBtns" id="resultado" onclick="calculate()">=</button>
+        <button id="resultado" onclick="calculate()">=</button>
       </div>
     </section>
     <script src="script.js"></script>
